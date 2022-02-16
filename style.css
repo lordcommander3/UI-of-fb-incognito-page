@@ -1,0 +1,91 @@
+body{
+    background-color: #ededed;
+    color: #1c1e21;
+    font-family:helvetica,arial,sans-serif;
+    font-size:12px;
+}
+ /* .fb-logo{
+    width: 200px;
+    height: 200px;
+} */
+#box-2{
+    border: white solid 0.1px;
+    background-color: white;
+    width: 350px;
+    padding:30px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.form{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #ededed;
+    color: #1d2129;
+    border: 1px solid #dddfe2;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+  
+}
+.Abu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px;
+}
+.button-1{
+    width: 355px;
+    height: 30px;
+    background-color: #1877F2;
+    color: white;
+    border-radius: 3px;
+    height: 50px;
+    align-items: center;
+    font-size: 15px;
+    border:none;
+}
+.button-2{
+    width: 355px;
+    height: 30px;
+    background-color: #42b72a;
+    color: white;
+    border-radius: 3px;
+     border:none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    height: 50px;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #385898;
+}
+a.link{
+    text-decoration: none;
+}
+a.link:hover{
+    text-decoration: underline;
+}
+.form:focus{
+    border:#1877F2 solid 1px;
+    outline: 1px solid transparent;
+}
+.button-1:hover{
+    background-color: #166fe5;
+    border-color:#166fe5 ;
+    cursor: pointer;
+}
+.button-2:hover{
+    cursor: pointer;
+    background-color: #36a420;
+    border-color: #36a420;
+}
